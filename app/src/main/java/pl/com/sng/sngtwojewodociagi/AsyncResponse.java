@@ -1,0 +1,9 @@
+package pl.com.sng.sngtwojewodociagi;
+
+/**
+ * Created by PBronk on 08.12.2016.
+ */
+public interface AsyncResponse  {
+
+    void processFinish(String output);
+}

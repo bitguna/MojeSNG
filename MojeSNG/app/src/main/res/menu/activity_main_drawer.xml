@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menugroup">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/icone_opai"
+            android:title="O nas" />
+        <item
+            android:id="@+id/aktualnosci"
+            android:icon="@drawable/icone_aktualnosci"
+            android:title="Aktualności" />
+        <item
+            android:id="@+id/wiadomosci"
+            android:icon="@drawable/icone_awarie"
+            android:title="Awarie" />
+        <item
+            android:id="@+id/jakosc_wody"
+            android:icon="@drawable/icone_jakosc"
+            android:title="Jakość wody" />
+        <item
+            android:id="@+id/kapieliska"
+            android:icon="@drawable/icone_kapieliska"
+            android:title="Kąpieliska morskie" />
+        <item
+            android:id="@+id/wylaczenia_planowe"
+            android:icon="@drawable/icone_planowewyl"
+            android:title="Planowe wyłączenienia wody" />
+        <item
+            android:id="@+id/cennik"
+            android:icon="@drawable/icon_cennik"
+            android:title="Cennik" />
+
+
+        <item
+            android:id="@+id/zgloszenie_awarii"
+            android:icon="@drawable/icone_zgloszenieawari"
+            android:title="Zgłoszenie awarii" />
+
+     <!--   <item
+            android:id="@+id/ustawienia"
+            android:icon="@drawable/icone_ustawienia"
+            android:title="Ustawienia" />  -->
+    </group>
+
+
+</menu>

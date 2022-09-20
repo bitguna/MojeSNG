@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i1136"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.com.sng.twojewodociagi.pl.example.pbronk.mojesng.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+
+             >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="135pt"
+            android:orientation="horizontal" >
+
+
+            <ImageButton
+                android:id="@+id/butt_aktualnosci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:layout_weight="0.5"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:background="@color/color_aktualnosci"
+                android:src="@drawable/button_testlg"
+                android:scaleType="fitCenter" />
+
+
+            <ImageButton
+                android:id="@+id/butt_jakoscwody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/button_testld"
+                android:layout_weight="0.5"
+                android:background="@color/color_jakosc"
+                android:adjustViewBounds="true"
+                android:padding="8dp"
+                android:scaleType="fitCenter" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+
+
+
+            android:orientation="horizontal" >
+            <ImageButton
+                android:id="@+id/butt_awarie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/color_awarie"
+                android:src="@drawable/button_testpg"
+                android:layout_weight="0.5"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+
+                android:scaleType="fitCenter" />
+            <ImageButton
+                android:id="@+id/butt_zgloszenieawari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/color_zgloszenie_awari"
+
+                android:src="@drawable/button_test"
+                android:layout_weight="0.5"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

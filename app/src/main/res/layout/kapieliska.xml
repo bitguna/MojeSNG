@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:text="Kąpieliska morskie"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/wielkosc_tytulu"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/kapieliska_title" />
+
+    <TextView
+        android:text="Wybierz Miasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/kapie_miasto" />
+
+
+    <AutoCompleteTextView
+
+        android:completionThreshold="1"
+        android:hint="Wybierz miasto"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kapie_spiler"
+        android:textSize="14sp"/>
+
+
+
+    <ListView
+        android:id="@+id/listViewKapie"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_weight="0.85" />
+
+
+
+
+
+    <Button
+        android:background="@drawable/buttondefault"
+        android:textColor="@color/color_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokaz_na_mapie_kapie"
+        android:text="Pokaż na mapie" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+��</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffMinutes(System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffMinutes EDM 函数以计算两个时间跨度间隔的分钟数。</summary>
+      <returns>第一个时间跨度和第二个时间跨度间隔的分钟数。</returns>
+      <param name="timeValue1">第一个时间跨度。</param>
+      <param name="timeValue2">第二个时间跨度。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffMonths(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffMonths EDM 函数以计算两个日期/时间间隔的月数。</summary>
+      <returns>第一个日期/时间和第二个日期/时间间隔的月数。</returns>
+      <param name="dateValue1">第一个日期/时间。</param>
+      <param name="dateValue2">第二个日期/时间。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffMonths(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffMonths EDM 函数以计算两个日期/时间间隔的月数。</summary>
+      <returns>第一个日期/时间和第二个日期/时间间隔的月数。</returns>
+      <param name="dateValue1">第一个日期/时间。</param>
+      <param name="dateValue2">第二个日期/时间。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffNanoseconds(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffNanoseconds EDM 函数以计算两个日期/时间间隔的纳秒数。</summary>
+      <returns>第一个日期/时间和第二个日期/时间间隔的纳秒数。</returns>
+      <param name="timeValue1">第一个日期/时间。</param>
+      <param name="timeValue2">第二个日期/时间。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffNanoseconds(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffNanoseconds EDM 函数以计算两个日期/时间间隔的纳秒数。</summary>
+      <returns>第一个日期/时间和第二个日期/时间间隔的纳秒数。</returns>
+      <param name="timeValue1">第一个日期/时间。</param>
+      <param name="timeValue2">第二个日期/时间。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffNanoseconds(System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffNanoseconds EDM 函数以计算两个时间跨度间隔的纳秒数。</summary>
+      <returns>第一个时间跨度和第二个时间跨度间隔的纳秒数。</returns>
+      <param name="timeValue1">第一个时间跨度。</param>
+      <param name="timeValue2">第二个时间跨度。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffSeconds(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffSeconds EDM 函数以计算两个日期/时间间隔的秒数。</summary>
+      <returns>第一个日期/时间和第二个日期/时间间隔的秒数。</returns>
+      <param name="timeValue1">第一个日期/时间。</param>
+      <param name="timeValue2">第二个日期/时间。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffSeconds(System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffSeconds EDM 函数以计算两个日期/时间间隔的秒数。</summary>
+      <returns>第一个日期/时间和第二个日期/时间间隔的秒数。</returns>
+      <param name="timeValue1">第一个日期/时间。</param>
+      <param name="timeValue2">第二个日期/时间。</param>
+    </member>
+    <member name="M:System.Data.Entity.Core.Objects.EntityFunctions.DiffSeconds(System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan})">
+      <summary>作为 LINQ to Entities 查询的一部分使用时，此方法调用规范 DiffSeconds EDM 函数以计算两个时间跨度间隔的秒数。</summar

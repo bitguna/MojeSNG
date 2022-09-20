@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/punkty_awari_lay"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+           android:layout_gravity="center_horizontal"
+
+        android:id="@+id/searchmap"
+        android:hint="Miasto, ulica" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+    <Button
+        android:text="Znajdź"
+        android:layout_weight="0.33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="geoLocate"
+        android:id="@+id/gobut"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+    android:text="Usuń punkt"
+        android:layout_weight="0.33"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:onClick="addMarker"
+    android:id="@+id/markerbut"
+    android:layout_gravity="left"
+    />
+    <Button
+        android:text="Zapisz"
+        android:layout_weight="0.33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="zapiszDoWyslania"
+        android:id="@+id/zapiszbuttt"
+        android:layout_gravity="right"
+
+        />
+
+    </LinearLayout>
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

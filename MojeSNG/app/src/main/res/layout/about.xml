@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+
+    android:paddingTop="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.com.sng.twojewodociagi.pl.example.pbronk.mojesng.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/wielkosc_tytulu"
+
+        android:text="O nas" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.8"
+        android:orientation="horizontal" >
+        <ScrollView
+            android:id="@+id/SCROLLER_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+
+
+            android:fillViewport="true">
+
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/onashtml" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/butt_strone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="0dp"
+
+        android:src="@drawable/do_strony"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter" />
+
+
+    <ImageButton
+        android:id="@+id/butt_facebook"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="1dp"
+
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/facebook"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter" />
+
+
+    <ImageButton
+        android:id="@+id/butt_twitter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="1dp"
+
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/twitter"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter" />
+
+
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

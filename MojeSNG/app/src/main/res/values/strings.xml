@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SNG Twoje wodociągi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="gps_network_not_enabled">Brak właczonego modułu gps</string>
+    <string name="open_location_settings">Czy właczyć moduł GPS??</string>
+    <string name="Cancel">Cancel</string>
+</resources>

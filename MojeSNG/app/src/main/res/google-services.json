@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "26949030590",
+    "firebase_url": "https://bronk-a76e9.firebaseio.com",
+    "project_id": "bronk-a76e9",
+    "storage_bucket": "bronk-a76e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26949030590:android:f12800af83baa915",
+        "android_client_info": {
+          "package_name": "com.example.pbronk.sngalertapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26949030590-kjm18nijiaki2i9eskrhmu5vtiuee6mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN5OpK2YBpxenbMivXuS3XMHH4t_b6Pck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26949030590:android:9166778ac5ce2a5b",
+        "android_client_info": {
+          "package_name": "pl.com.sng.twojewodociagi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26949030590-kjm18nijiaki2i9eskrhmu5vtiuee6mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN5OpK2YBpxenbMivXuS3XMHH4t_b6Pck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

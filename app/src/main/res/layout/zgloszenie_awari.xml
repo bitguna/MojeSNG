@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:layout_weight="0.85"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Zgłoszenie awarii"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/wielkosc_tytulu"
+        android:layout_height="wrap_content"
+        android:id="@+id/jakosc_title_news" />
+
+    <TextView
+        android:text="Miejsce wystapienia awarii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <AutoCompleteTextView
+        android:completionThreshold="1"
+        android:hint="Wybierz miasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/miasto_awaria"
+        android:textSize="14sp"/>
+    <AutoCompleteTextView
+        android:completionThreshold="1"
+        android:hint="Wybierz ulice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ulica_awaria"
+        android:textSize="14sp"/>
+    <AutoCompleteTextView
+        android:completionThreshold="1"
+        android:hint="Wpisz nr budynku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nrbud_awaria"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:text="Informaje o awarii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_o_awarii"
+        android:textSize="16sp"/>
+    <AutoCompleteTextView
+        android:completionThreshold="1"
+        android:hint="Wybierz rodzaj awarii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rodzaj_awariii"
+        android:textSize="14sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/opis_awari"
+        android:hint="Opis awarii"
+        android:layout_weight="0.32"
+        android:textSize="14sp"
+   />
+
+
+    <LinearLayout
+        android:id="@+id/btnLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/zdjecie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/buttondefault"
+            android:textColor="@color/color_default"
+            android:text="Dodaj zdjęcie" />
+
+        <Button
+            android:background="@drawable/buttondefault"
+            android:textColor="@color/color_default"
+            android:id="@+id/mapapokaz"
+            android:layout_width="0dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Zaznacz na mapie"/>
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:background="@drawable/buttondefault"
+        android:textColor="@color/color_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyslij zgłoszenie"
+        android:id="@+id/wyslij_awarie"/>
+
+
+</LinearLayout>
+
+
+
+
+
+</ScrollView>

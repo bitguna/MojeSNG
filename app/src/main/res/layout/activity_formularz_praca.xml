@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:layout_weight="0.85"
+        android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/wielkosc_tytulu"
+        android:text="Aplikacja o pracę:" />
+
+    <TextView
+        android:text="Stanowisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aplikaStanowisko"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="Podstawowe dane osobowe"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Imię"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/do_imie"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Nazwisko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/do_nazwisko"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Data urodzenie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/do_data_urodzenia"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:text="Dane korespondencyjne"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Miejscowość"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dk_miejscowosc"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Kod pocztowy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dk_kod_pocztowy"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Ulica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dk_ulica"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Numer budynku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dk_nr_budynku"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Telefon"
+        android:layout_width="match_parent"
+        android:inputType="numberSigned"
+        android:layout_height="wrap_content"
+        android:id="@+id/dk_telefon"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dk_emial"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <TextView
+        android:text="Wykształcenie"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+    <Spinner
+        android:completionThreshold="1"
+        android:hint="Rodzaj"
+        android:textColor= "@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/w_rodzaj"
+        android:textSize="14sp"
+
+       />
+
+
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Kierunek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/w_kierunek"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Staż pracy w latach"
+        android:layout_width="match_parent"
+        android:inputType="numberSigned"
+        android:layout_height="wrap_content"
+        android:id="@+id/w_staz_pracy"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <TextView
+        android:text="Znajomość języków obcych"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+    <Spinner
+        android:completionThreshold="1"
+        android:hint="Angielski"
+        android:textColor= "@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z_angielski"
+        android:textSize="14sp"/>
+    <Spinner
+        android:completionThreshold="1"
+        android:hint="Niemiecki"
+        android:textColor= "@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z_niemiecki"
+        android:textSize="14sp"/>
+    <Spinner
+        android:completionThreshold="1"
+        android:hint="Francuski"
+        android:textColor= "@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z_francuski"
+        android:textSize="14sp"/>
+    <Spinner
+        android:completionThreshold="1"
+        android:hint="Rosyjski"
+        android:textColor= "@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z_rosyjski"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Inny - jaki?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z_inne"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <Spinner
+        android:completionThreshold="1"
+        android:hint="Inny"
+        android:textColor= "@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/z_inny_poziom"
+        android:textSize="14sp"/>
+    <TextView
+        android:text="Dodatkowe informacje"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Obsługa komputera(programy)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/d_obsluga_kompa"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Prawo jazdy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/d_prawo_jazdy"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Inne umiejętności"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/d_inne"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Oczekiwania miesięczne brutto"
+        android:layout_width="match_parent"
+        android:inputType="numberSigned"
+        android:layout_height="wrap_content"
+        android:id="@+id/d_oczekiw_brutto"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+    <EditText
+        android:completionThreshold="1"
+        android:hint="Uwagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/d_uwagi"
+        android:layout_weight="0.32"
+        android:textSize="14sp"/>
+        <Button
+            android:background="@drawable/buttondefault"
+            android:textColor="@color/color_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Załącz CV"
+            android:id="@+id/bt_attachment"/>
+
+        <TextView
+            android:text="Załączono plik:"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:completionThreshold="1"
+            android:hint=" "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/plik_zal"
+            android:layout_weight="0.32"
+            android:textSize="14sp"/>
+
+
+        <Button
+            android:background="@drawable/buttondefault"
+            android:textColor="@color/color_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wyślij"
+            android:id="@+id/bt_sendCV"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>

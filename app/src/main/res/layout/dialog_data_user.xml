@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dane kontaktowe"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/zgloszenie_imie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Imię i nazwisko" />
+
+    <EditText
+        android:id="@+id/zgloszenie_telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:inputType="textPersonName"
+        android:hint="Nr telefonu" />
+
+    <EditText
+        android:id="@+id/zgłoszenie_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:inputType="textPersonName"
+        android:hint="Email" />
+
+    <Button
+        android:id="@+id/zgloszenie_wyslij"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttondefault"
+        android:textColor="@color/color_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyślij" />
+</LinearLayout>

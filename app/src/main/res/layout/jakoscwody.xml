@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:weightSum="1">
+    <TextView
+        android:text="Jakość wody w dzielnicach"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/wielkosc_tytulu"
+        android:layout_height="wrap_content"
+        android:id="@+id/jakosc_title_news" />
+
+    <TextView
+        android:text="Wybierz Miasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/wyb_miasto" />
+
+    <Spinner
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2" />
+
+    <TextView
+        android:text="Wpisz ulice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+    <AutoCompleteTextView
+        android:completionThreshold="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3" />
+
+    <TextView
+        android:text="Wpisz numer budynku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <AutoCompleteTextView
+        android:completionThreshold="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4" />
+
+
+    <ListView
+        android:id="@+id/listViewJakosc"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_weight="0.50" />
+
+    <Button
+        android:background="@drawable/buttondefault"
+        android:textColor="@color/color_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokaz_na_mapie_jakosc"
+        android:text="Pokaż na mapie" />
+
+
+</LinearLayout>
